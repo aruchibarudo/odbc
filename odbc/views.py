@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from configparser import ConfigParser
 
-ODBC_INI = '/tmp/odbc.ini'
+ODBC_INI = 'odbc.ini'
 
 def index(request):
     sections = []
